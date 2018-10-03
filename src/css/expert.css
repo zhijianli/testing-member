@@ -1,0 +1,14 @@
+.shan-item {
+	display: inline-block;
+	padding: 0 10px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+	border: 1px solid #eee;
+	background-color: rgba(250, 250, 250, 1);
+}
+.shan-item.selected {
+	color: #FFF;
+	background-color: #33CCCC;
+}

@@ -1,0 +1,105 @@
+
+/*
+**菜单
+*/
+#logo {
+	height: 77px;
+	position: relative;
+	width: 100%;
+	padding:26px 0 0 20px;
+	box-sizing: border-box;
+	background: #1f262d;
+}
+
+#logo h1 {
+	background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+	height: 31px;
+	line-height: 600px;
+	overflow: hidden;
+	width: 191px;
+}
+
+#section > ul {
+	border-bottom: 1px solid #37414b;
+}
+
+#section > ul > li {
+    border-top: 1px solid #37414b;
+    border-bottom: 1px solid #1f262d;
+}
+
+#section > ul > li > a {
+	color:#939da8;
+	padding: 10px 0 10px 15px;
+	font-size:12px;
+	display: block;
+}
+
+#section > ul > li > ul {
+	display: none
+}
+
+#section > ul > li > a > i {
+    margin-right:6px;
+}
+
+li{
+	line-height: 20px;
+}
+
+#section > ul li ul li a {
+    padding: 10px 0 10px 25px;
+    display: block;
+    color: #939da8;
+    font-size:12px;
+}
+
+#section > ul > li > a:hover {
+    background-color: #27a9e3;
+    color: #fff;
+}
+
+#section > ul li ul li:first-child a {
+    border-top: 0;
+}
+
+
+#section > ul li ul li a:hover, #section > ul li ul li.active a {
+    color: #fff;
+    background-color: #28b779;
+}
+
+#section > ul li ul {
+    background-color: #1e242b;
+}
+
+
+
+#section > ul > li.active > a {
+    background: url("../images/menu-active.png") no-repeat scroll right center transparent !important;
+    text-decoration: none;
+}
+
+#section > ul > li.active {
+    background-color: #27a9e3;
+    border-bottom: 1px solid #27a9e3;
+    border-top: 1px solid #27a9e3;
+}
+
+#section > ul > li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+#section > ul > li.submenu > ul{
+    transition:height 1s;    
+    display: block;
+}
+
+#section > ul > li.submenu > ul.hide{
+    height:0;
+    overflow: hidden;
+}
+#section > ul > li.submenu > ul.show{
+    height:auto;
+}
+

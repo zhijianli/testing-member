@@ -1,0 +1,230 @@
+#section .menu > li > a > :last-child, #section .menu > li > ul > li > a > :last-child {
+    text-align: right;
+    margin-right:10px;
+    float: right;
+    margin-top: 4px;
+}
+
+#section > ul.menu > li > a.active {
+    background-color: #27a9e3;
+    color: #fff;
+}
+
+
+#section .menu > li > ul > li > a {
+    padding: 10px 0 10px 42px;
+}
+
+#section .menu > li > ul > li > a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+#section > ul.menu li ul{
+    background-color:#2E363F;
+}
+
+#section > ul.menu li ul > li > ul {
+    background-color: #1e242b;
+}
+
+#section .menu > li > ul > li > ul > li > a {
+    padding: 10px 0 10px 60px;
+}
+
+#section .menu > li > ul > li > ul > li > a:hover,#section .menu > li > ul > li > ul > li > a.active, #section .menu > li > ul > li > a.active{
+    background-color: transparent;
+    color: #fff;
+}
+
+
+/* 必需 */
+.expand-transition {
+  transition: all .3s ease;
+
+  background-color: #eee;
+  overflow: hidden;
+}
+
+/* .expand-enter 定义进入的开始状态 */
+/* .expand-leave 定义离开的结束状态 */
+.expand-enter, .expand-leave {
+  height: 0;
+  padding: 0 10px;
+  opacity: 0;
+}
+
+.audit-details-list div.titleTip{
+    background: #fff;
+    margin: 20px 0 20px 0;
+    padding:15px 15px;
+    flex-wrap: wrap;
+}
+
+.audit-details-list li.commentList{
+    padding:15px 0;
+    border-top:1px solid #eee;
+    flex-wrap: wrap;
+    display: flex
+}
+.commentinfo{
+    background: #fff;
+    width: 730px;
+}
+
+.commentinfo > div {
+    padding:10px 15px;
+}
+
+.audit-details-list div{
+    display: flex;
+    list-style: none;
+    padding: 5px 0;
+    /*margin: 10px 0;*/
+    font-size: 12px;
+    width: 700px;
+    flex-wrap: wrap;
+
+}
+.audit-details-list div.titleTip  div.titleImg,.audit-details-list li.commentList p{
+    display: flex;
+    width: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.audit-details-list div.titleTip  div.titleImg button,.audit-details-list li.commentList button{
+    margin-top:5px;
+    height: 22px;
+}
+.audit-details-list div.titleTip  div.titleImg img,.audit-details-list li.commentList p img{
+    width: 50px;
+    height: 50px;
+    padding: 1px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+.audit-details-list div  span.message{
+    text-align: left;
+    margin-left:10px;
+    background: #fff;
+    display: block;
+    padding: 10px;
+    position: relative;
+    border-radius: 4px;
+    width:610px;
+}
+
+.audit-details-list div  span.message .arrow {
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -9px;
+    border-top: 10px solid transparent;
+    border-right:10px solid #fff;
+    border-bottom:10px solid transparent
+}
+
+.audit-details-list div  span.message .delete{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    cursor: pointer
+}
+
+
+.audit-details-list div .time {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.audit-details-list div .text {
+    display: block;
+    padding:10px 0;
+    word-break: break-all;
+}
+
+.audit-details-list div .time > * {
+    font-style: normal;
+}
+
+.audit-details-list div .time span > span {
+    font-weight: normal;
+    margin-left: 10px;
+    display: inline-block;
+    text-shadow:0 0 0;
+}
+
+.audit-details-list div > span.message .audit-details-delete{
+    position: absolute;
+    right: -8px;
+    top: -6px;
+    cursor: pointer
+}
+
+
+
+
+.thumbnails {
+    flex-wrap: wrap;
+    display: flex;
+}
+.thumbnails [class*="span"] {
+	position: relative;
+}
+.thumbnails .actions {
+	width: auto;
+	height: 16px;
+	background-color:#000;
+	padding: 4px 8px 8px 8px;
+	position: absolute;
+	bottom:0%;
+	left:50%;
+	margin-top: -13px;
+	margin-left: -16px;
+	opacity: 0; top:10%; transition:1s ease-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+}
+.thumbnails li:hover .actions,.thumbnails li:hover .actions a:hover{
+	opacity: 1; color:#fff; top:50%; transition:1s ease-out;
+}
+
+.thumbnails li{
+    margin-right: 10px;
+}
+.row-fluid .span1 {
+    width: 80px;
+}
+
+.row-fluid .span1  img{
+    width:80px;
+    height: 80px;
+    cursor: pointer;
+    border:2px solid #ddd
+}
+
+.thumbnails li .icon-remove{
+    position: absolute;
+    top: -6px;
+    right: -11px;
+    cursor: pointer;
+}
+
+.imgPopup{
+    max-width: 520px;
+}
+
+.audit-details-list .comments-h2{
+    justify-content: center;
+    display: flex;
+}
+
+.commentinfo  .commentList img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}

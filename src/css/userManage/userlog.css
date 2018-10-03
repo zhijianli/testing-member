@@ -1,0 +1,25 @@
+#search select {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 30px;
+}
+
+.container-fluid .title#search select {
+    width: 160px;
+    margin: 0 6px 10px 0;
+    height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.container-fluid .title#search input[type=text]{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.container-fluid .title#search  input.btn {
+	margin: -10px 0 0 4px;
+}

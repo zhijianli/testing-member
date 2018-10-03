@@ -1,0 +1,101 @@
+.c2-operate-s {
+    cursor: pointer;
+    color: rgb(43, 141, 249);
+}
+.xm-logo-box {
+    width: 100px;
+    height: 100px;
+    /*background-color: white;*/
+    border-radius: 50%;
+
+}
+
+.login-item-logo {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login-item-logo p {
+    color: white;
+    font-size: 24px;
+}
+.login-item-rem {
+    display: flex;
+    color: white;
+}
+.login-item-rem label {
+    margin-top: 2px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.w-s-l-m {
+    margin: 0 50px;
+    line-height: 40px;
+}
+
+
+.audit-details-list .audio_box {
+    display: inline-block;
+    width: 240px;
+    height: 23px;
+    /*background-color: ;*/
+    background: url("../images/audioToRight03.png") no-repeat 12px/cover #608FDB;
+    border-radius: 5px;
+    background-size: 12px 16px;
+    cursor: pointer;
+
+}
+
+.audio_box_ani {
+    -webkit-animation: voiceplay 1s infinite step-start;
+    -moz-animation: voiceplay 1s infinite step-start;
+    -o-animation: voiceplay 1s infinite step-start;
+    animation: voiceplay 1s infinite step-start;
+}
+
+
+.app-voice-you .app-voice-pause{
+    /*从未播放*/
+
+}
+.app-voice-you .app-voice-play{
+    /*播放中（不需要过渡动画）*/
+
+}
+@-webkit-keyframes voiceplay {
+    0%,
+    100% {
+        background-image: url("../images/audioToRight01.png");
+    }
+    33.333333% {
+        background-image: url("../images/audioToRight02.png");
+    }
+    66.666666% {
+        background-image: url("../images/audioToRight03.png");
+    }
+}
+
+.audit-details-list .audio_item_duration {
+    line-height: 23px;
+    margin-left: 20px;
+
+
+
+
+
+}
+
+.img-jinqi{
+    width: 20px !important;
+    height: 20px !important;
+    display: inline-block !important;
+    position: relative !important;
+    top: 5px !important;
+}
+
+
+
+

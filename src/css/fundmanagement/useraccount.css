@@ -1,0 +1,437 @@
+.mySearchBox {
+    display: inline-block;
+    width: 650px;
+}
+
+.searchTit,
+.searchMargin {
+    display: inline-block;
+    width: 80px;
+    text-align: end;
+    vertical-align: text-bottom;
+}
+
+.searchMargin {
+    width: 40px;
+}
+
+.myBtn {
+    line-height: 30px;
+    display: inline-block;
+    width: 80px;
+    padding: 0 10px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    color: #fff;
+    background-color: #28b578;
+}
+
+.btnSmall {
+    /* line-height: 30px; */
+    display: inline-block;
+    width: 80px;
+    /* padding: 0 10px; */
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #28b578;
+}
+
+.castaccountBtn,
+.settlementBtn {
+    display: block;
+    vertical-align: top;
+}
+
+.incomeBtn {
+    vertical-align: top;
+}
+
+.myPagenav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.textGreen {
+    color: #28b578;
+}
+
+.record {
+    display: inline-block;
+}
+
+.account {
+    margin-right: 20px;
+}
+
+.search>input.searchBtn {
+    line-height: 30px;
+    display: inline-block;
+    min-width: 80px;
+    margin-right: 5px;
+    padding: 0 10px;
+    transition: all .1s;
+    text-align: center;
+    color: #fff;
+    background: #28b578;
+}
+
+.search>input.searchBtn:hover {
+    color: #333;
+    background-color: #e6e6e6;
+}
+
+
+/* table  表格改45%   table  表格改45%   table  表格改45%   table  表格改45%  */
+
+.mytable .check {
+    cursor: pointer;
+}
+
+.textGreen {
+    color: #28b578;
+}
+
+
+/*  */
+
+.tagTit {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.tagTit>li {
+    line-height: 30px;
+    display: inline-block;
+    min-width: 80px;
+    margin-right: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all .1s;
+    text-align: center;
+    color: #333;
+    background: #e6e6e6;
+}
+
+.tagTit>li.show,
+.tagTit>li:hover {
+    color: #fff;
+    background-color: #28b578;
+}
+
+.left,
+.right {
+    display: inline-block;
+    width: 45%;
+    padding-top: 20px;
+    vertical-align: top;
+}
+
+.left {
+    width: 54%;
+}
+
+.right {
+    float: right;
+}
+
+.tagCont>li.show {
+    display: block;
+}
+
+.rate {
+    color: #fff;
+    border: 1px #ddd solid;
+    background-color: #28b578;
+}
+
+.rate>li {
+    font-size: 0;
+}
+
+.rateName,
+.rateNum {
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+    min-width: 80px;
+    padding: 0 10px;
+    text-align: center;
+    border-right: 1px #ddd solid;
+}
+
+
+/*
+    导出到csv
+ */
+
+.export {
+    cursor: pointer;
+}
+
+
+/*
+    时间选择
+ */
+
+.calendar {
+    z-index: 10;
+    vertical-align: top;
+}
+
+.viewCont {
+    width: 288px;
+    margin-top: 16px;
+    padding: 102px 20px 120px;
+    background: url('../../images/iphone.png') no-repeat;
+    background-size: 100% auto;
+}
+
+.viewCont h2 {
+    font-size: 14px;
+    line-height: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.viewCont .img {
+    position: relative;
+    min-height: 141px;
+}
+
+.viewCont .img>img {
+    width: 288px;
+    height: 141px;
+}
+
+.viewCont .icon {
+    position: absolute;
+    top: 48px;
+    right: 6px;
+    display: inline-block;
+    width: 65px;
+    height: 47px;
+    background: url('../../images/icon1.png') no-repeat;
+    background-size: 65px auto;
+}
+
+.viewCont .label {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    display: block;
+    width: 116px;
+    height: 20px;
+    margin: 0 0 0 -58px;
+    padding: 0;
+    text-align: center;
+    color: #3cc;
+    border-radius: 10px;
+    background: #fff;
+    text-shadow: 0 0 0 rgba(0, 0, 0, .25);
+}
+
+.viewCont span.logo img {
+    position: absolute;
+    bottom: 0;
+    bottom: -16px;
+    left: 0;
+    left: 20px;
+    width: 38px;
+    height: 38px;
+    padding: 3px;
+    border: 1px solid #3cc;
+    border-radius: 50%;
+}
+
+.viewCont .title {
+    line-height: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 28px;
+    padding: 14px 12px 0;
+    border-bottom: 1px solid #ddd;
+    background: #f7f7f7;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.viewCont .title .label-font {
+    padding-left: 16px;
+    color: #3cc;
+    background: url('../../images/icon2.png') no-repeat left center;
+    background-size: 12px auto;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.viewCont .title .positioning {
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.viewCont .title .positioning i {
+    display: inline-block;
+    width: 10px;
+    margin-right: 4px;
+    background: url('../../images/icon3.png') no-repeat left center;
+    background-size: 10px auto;
+}
+
+.content-view {
+    display: block;
+    overflow: hidden;
+    width: 94%;
+    height: 244px;
+    padding: 0 3% 0;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.content-view h3.nametitle {
+    font-size: 14px;
+    line-height: 26px;
+    height: 26px;
+    margin: 0;
+    padding: 6px 0 4px;
+    color: #3cc;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.baseline {
+    vertical-align: baseline;
+}
+
+.my-control-group {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.my-control-label {
+    display: inline-block;
+    width: 100px;
+    vertical-align: baseline;
+}
+
+.my-selectPopup {
+    width: 186px;
+    height: 32px;
+}
+
+.validateError {
+    font-size: 10px;
+    margin-right: 2px;
+    color: red;
+}
+
+.subtitleCont {
+    display: flex;
+}
+
+.subtitle {
+    width: 100%;
+}
+
+.btnMiddle {
+    display: block;
+    margin: 0 auto;
+}
+
+.myBtnBot {
+    margin-bottom: 20px;
+}
+
+.displaySub {
+    vertical-align: sub;
+}
+
+.myselect {
+    display: inline-block;
+    width: 160px;
+    height: 29px;
+    height: 30px;
+    margin: 0 6px 10px 0;
+    vertical-align: middle;
+    color: #000;
+    background-color: #fff;
+}
+
+.my-list-topic {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.a-upload {
+    line-height: 20px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 20px;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: #888;
+    color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #2f96b4;
+    *display: inline;
+    *zoom: 1;
+}
+
+.a-upload input {
+    font-size: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.myBtnRight {
+    float: right;
+}
+
+.listImg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.expertList {
+    /*display: flex;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;*/
+}
+
+.expertList>label {
+    display: inline-block;
+    min-width: 100px;
+    margin: 2px;
+    padding: 5px 10px;
+    border: 1px solid #cdcdcd;
+}

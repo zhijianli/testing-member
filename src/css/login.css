@@ -1,0 +1,68 @@
+.login-box {
+	width: 500px;
+	margin: 6% auto 0;
+	border-top: 1px solid #3f4954;
+	border-bottom: 1px solid #3f4954;
+}
+
+.login-item {
+	display: flex;
+	width: 85%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.login-item:first-child {
+	height: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAPQSURBVHja7Fs9btswGH0ushfaO6lLOstHkIF06KjcoMoRbPQAgX0Eq+gFrK1AgBb2ESx0TBdr6hwjJ1AHf0S/fqBEUj/5sfgAwU5MfaLIx8fHj9Kkqiq0wYcfX6xO/P7tbgLA5SKTuh8+JXcYEr+v39nee6v491e38BgGb3wTeHgiPyGGVmOP3hABOAB4AJB6ItujoiO2LJ+yc/pCCCDoKRavHz/CHtqoArAduD82rD3WHes9SmsxdyBKJ2i87qFH9UmHqvcTITD87YncgCMpsmn0xzT1Hdsu9AZGSPXTIXklfbFg3zMAhSeyPXZETpNqpVRu9xyVtMh2pAaSvwYyZwDeA5gCuPEe2V2RMwMRAiJCJhVZqHFIPu+BPOUBwJKdvxWWQnntJSvfFomGFHJGaSL6WtR7bpjat8I/K4t2EDH49Xnb7DV13tJ5e7EO0V0rpXhVQzwrXJyRR86o0RMAeYPaZQ1+WnWUKlcSEWJq5EKQacEWNTmbGWy9tSQxt0YlgJUYnCld86jJFGwFaUMaXC7E2Atro2Ko76nmuhsAsxaz3F5jo1S865o+HAWRS2rMeQORd1ROp8YBNWJJHcPJshIkV1DXWRPJsw71jzWxS4obCcLL66wblDdyqENd2aXFTOJK5MiwcHci8rltiGTUQJGGJCERsqnxAvJ1xxofnlmqq6saBxq1y8VnnY9OxP0eSbVndC8ui62C1HBRIxQ3FDfX2BpXFCzeqsPg66bI91e3E6uCk19Aw7azNR6tSuVs0XcjSFoaVCOmxi0MXnwIJBrSFOyelqKTQzazRJqsQSYGt23OfCraIxa/Hdmg7pqHn4l4cRsC96HIleXhUraPTQq16AuYWsQW0374VKkii2xFXkNqXfnIsEDsc0E9ZLxO8c/xWYtMdHZq2cHBM9VXlzuei8EdGRR89DhHIisLwYmcW4z4ssvU1qMa25I/YfWWg+AlDFBP5B6wwr98cGBY5PHFXGRYuLQmRcNmSNut54QtmmSGYU52KsXwz1a8CFyc6X2pNFtisYDj5FcJ+plGwWOYN1zakDHQ1EM3e0TCUqhzVV48FGQeFS7O+N4y6tBGb3y5+aNyySVOqacNTjtTckMkogGi86cF/b+ksouaad8mW7GwsBNczVdU723NYCqeyTJ5a9ETlC/OHc+ZMo+9ps8Cp+cH6pRdpfrUY4uBJJUmjxxoiLkzePiywV5M8f/2uxoUszEo8qTtq06wTZX9/NjLq06Xj18Ha4S2T765vPLkX3Pyinwi29vPvrc8RmktPDyRvSp7jMcje3i8GPwdACkWMKnEfTBCAAAAAElFTkSuQmCC) no-repeat center;
+}
+
+.login-item span {
+	width: 48px;
+	line-height: 38px;
+	background-color: #28b779;
+}
+.login-item:nth-of-type(3) span {
+	background-color: #ffb848;
+}
+
+.login-item span::after {
+	content: "\f007";
+	width: 10px;
+	color: #FFF;
+	font-family: FontAwesome;
+}
+.login-item:nth-of-type(n+3) span::after {
+	content: "\f023";
+}
+
+.login-item input {
+	flex: 1;
+	height: 38px;
+	padding: 0;
+	padding-left: 10px;
+	margin: 0;
+	border: none;
+}
+
+.login-item a {
+	width: 130px;
+	margin-left: 20px;
+	line-height: 38px;
+	font-size: 18px;
+	background-color: #FFF;
+}
+
+.login-btn {
+	display: block;
+	width: 250px;
+	margin: 20px auto;
+	color: #FFF;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	background-color: #5bb75b;
+}

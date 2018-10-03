@@ -1,0 +1,83 @@
+ul.chat {
+	margin:0;
+}
+
+ul.chat li {
+	list-style: none;
+	padding: 5px 0;
+	margin: 10px auto;
+	font-size: 12px;
+}
+
+
+ul.chat li img.avatar {
+	height: 50px;
+	width: 50px;
+	padding: 1px;
+	border: 1px solid #eee;
+	border-radius:50%;
+}
+
+ul.chat li.left img.avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+ul.chat li.right img.avatar {
+	float: right;
+	margin-left: 10px;
+}
+
+ul.chat li .message {
+	fon-size:14px;
+	display: block;
+	border: 2px solid #eee;
+	padding: 10px;
+	position: relative;
+	-webkit-border-radius: 4px;
+   	   -moz-border-radius: 4px;
+      		border-radius: 4px;
+}
+
+ul.chat li.left .message {
+	text-align: left;
+	margin-left: 65px;
+	background: #fff 
+}
+
+ul.chat li.left .message .arrow {
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: -20px;
+	background: url(../../images/chat-left.png) no-repeat 0px 0px;
+}
+
+ul.chat li.right .message .arrow {
+	height: 20px;
+	width: 20px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: -20px;
+	background: url(../../images/chat-right.png) no-repeat 0px 0px;
+}
+
+ul.chat li.right .message {
+	text-align: right;
+	margin-right: 65px;
+	background: #fcfcfc;
+}
+
+ul.chat li .message .text {
+	display: block;	
+}
+ul.chat li .time{
+	display: flex;
+	justify-content: space-between;
+}
+ul.chat li .time > * {
+	font-style: normal;
+}

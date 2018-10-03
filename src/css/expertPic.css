@@ -1,0 +1,89 @@
+/* 
+    上传图片
+ */
+
+.eap-identification-default {
+    min-height: 200px;
+    // padding: 16px 0;
+    border: 2px dashed #c0ccda;
+    img {
+        display: block;
+        width: 300px;
+        height: auto;
+        margin: 16px auto;
+    }
+    .delete,
+    .upload {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        transition: all .3s;
+        opacity: 0;
+        background: rgba(0, 0, 0, .40);
+    }
+    .delete {
+        font-size: 16px;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 16px;
+        text-align: right;
+        color: #fff;
+    }
+    .upload {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .upload-btn {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: #fff;
+            &:before,
+            &:after {
+                position: relative;
+                display: block;
+                width: 50px;
+                height: 10px;
+                content: '';
+                background: rgba(0, 0, 0, .40);
+            }
+            &:before {
+                top: 40px;
+                left: 20px;
+                transform: rotate(90deg);
+            }
+            &:after {
+                top: 30px;
+                left: 20px;
+            }
+        }
+    }
+    &:hover .delete,
+    &:hover .upload {
+        opacity: 1;
+    }
+    .camera {
+        display: block;
+        margin: 36px auto;
+        width: 80px;
+        height: 67px;
+    }
+    .note {
+        font-size: 16px;
+        line-height: 62px;
+        text-align: center;
+        color: #99a9bf;
+        background: #eff2f7;
+    }
+}
+
+.eap-identification-note {
+    font-size: 14px;
+    color: #99a9bf;
+    div {
+        margin: 16px 0;
+    }
+}
