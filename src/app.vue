@@ -35,21 +35,21 @@
             <!-- 写死的心理测试菜单 -->
             <ul class="menu">
                <li>
-                <a href="http://localhost:8000/scaleManagement" class="active">
+                <a href="http://localhost:9001/scaleManagement" class="active">
                     <i class="icon icon-heart"></i>
                     <span>量表管理</span>
                     <i class="icon icon-chevron-right"></i>
                 </a>
                </li>
                <li>
-                <a href="http://localhost:8000/scaleTypeManagement" class="active">
+                <a href="http://localhost:9001/scaleTypeManagement" class="active">
                     <i class="icon icon-heart"></i>
                     <span>量表类型管理</span>
                     <i class="icon icon-chevron-right"></i>
                 </a>
                </li>
                <li>
-                <a href="http://localhost:8000/scaleFlowManagement" class="active">
+                <a href="http://localhost:9001/scaleFlowManagement" class="active">
                     <i class="icon icon-heart"></i>
                     <span>量表流水管理</span>
                     <i class="icon icon-chevron-right"></i>

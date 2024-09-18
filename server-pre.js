@@ -249,7 +249,7 @@ app.post("/testCenter/testScaleClass/add", (req, res) => {
 
         host: process.env.NODE_URL || 'testapi.120xinmao.com',
 
-        port: process.env.NODE_PORT || 8000,
+        port: process.env.NODE_PORT || 9001,
         path: req.path,
         method: req.method,
         headers: {
@@ -273,7 +273,7 @@ app.post("/testCenter/testScaleClass/update", (req, res) => {
 
         host: process.env.NODE_URL || 'testapi.120xinmao.com',
 
-        port: process.env.NODE_PORT || 8000,
+        port: process.env.NODE_PORT || 9001,
         path: req.path,
         method: req.method,
         headers: {
@@ -295,7 +295,7 @@ app.post("/testCenter/*/add", (req, res) => {
 
         host: process.env.NODE_URL || 'testapi.120xinmao.com',
 
-        port: process.env.NODE_PORT || 8000,
+        port: process.env.NODE_PORT || 9001,
         path: req.path,
         method: req.method,
         headers: {
@@ -317,7 +317,7 @@ app.post("/testCenter/*/update", (req, res) => {
 
         host: process.env.NODE_URL || 'testapi.120xinmao.com',
 
-        port: process.env.NODE_PORT || 8000,
+        port: process.env.NODE_PORT || 9001,
         path: req.path,
         method: req.method,
         headers: {
@@ -345,7 +345,7 @@ app.post("/testCenter/*", (req, res) => {
 
         host: process.env.NODE_URL || 'testapi.120xinmao.com',
 
-        port: process.env.NODE_PORT || 8000,
+        port: process.env.NODE_PORT || 9001,
         path: req.path,
         method: req.method,
         headers: {
@@ -369,7 +369,7 @@ app.post("/orderCenter/*", (req, res) => {
 
         host: process.env.NODE_URL || 'testapi.120xinmao.com',
 
-        port: process.env.NODE_PORT || 8000,
+        port: process.env.NODE_PORT || 9001,
         path: req.path,
         method: req.method,
         headers: {
