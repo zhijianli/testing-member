@@ -98,7 +98,7 @@ export default {
         proxy: {
             "/testCenter/*": {
                 // target: "http://47.98.124.127:9000", 
-                target: "http://127.0.0.1:9000", 
+                target: "https://127.0.0.1:9000", 
                 // target: "http://192.168.0.247:8000", //35 80
                 // target: "http://192.168.0.11:8080", //35 80
                 secure: false
@@ -132,7 +132,7 @@ export default {
                 secure: false
             },
             "/orderCenter/*": {
-                target: "http://127.0.0.1:9000", 
+                target: "https://127.0.0.1:9000", 
                 // target: "http://47.98.124.127:9000", 
                 // target: "http://192.168.0.247:8000",
                 secure: false
